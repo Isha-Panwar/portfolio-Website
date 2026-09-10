@@ -24,11 +24,13 @@ export default function Home() {
           {/* Action Buttons */}
           <div className="mt-8 flex flex-wrap gap-4 justify-center md:justify-start items-center">
             <a
-              href="/resume.pdf"
-              download
-              className="flex items-center gap-2 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold px-6 py-3 rounded-lg transition-all shadow-md"
-            >
-              <Download className="w-5 h-5" /> Download Resume
+            
+               href="/ISHA PANWAR Resume.docx"
+                download="ISHA_PANWAR_Resume.docx"
+               className="flex items-center gap-2 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold px-6 py-3 rounded-lg transition-all shadow-md"
+             >
+                <Download className="w-5 h-5" /> Download Resume
+
             </a>
             <a
               href="https://linkedin.com/in/isha-panwar"
